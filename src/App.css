@@ -8,3 +8,26 @@
 .app__body {
   display: flex;
 }
+
+.sideBar__bottom > p {
+  font-weight: bold;
+}
+
+.sideBar__recentItems {
+  display: flex;
+  color: grey;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.sideBar__recentItems:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.sideBar__hash {
+  margin-right: 10px;
+  margin-left: 5px;
+}

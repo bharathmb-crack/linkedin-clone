@@ -1,0 +1,31 @@
+.post {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+
+.post__profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post__nameInterest {
+  margin-left: 10px;
+}
+.post__nameInterest > h4 {
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+.post__nameInterest > h2 {
+  font-size: 18px;
+}
+
+.post__body {
+  margin: 5px;
+}
+.post__button {
+  display: flex;
+  justify-content: space-evenly;
+}
